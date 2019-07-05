@@ -9,3 +9,5 @@ gem 'shotgun'
 gem 'capybara'
 
 gem 'selenium-webdriver'
+
+gem 'simplecov'
