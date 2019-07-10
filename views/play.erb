@@ -1,5 +1,6 @@
-<%= @player_1_name %> vs. <%= @player_2_name %>
-<br>
-<%= @player_2_name %>: 60HP
-<br>
+
+<%= @game.player_1.name %> vs. <%= @game.player_2.name %>
+
+
+<%= @game.player_2.name %>: <%= @game.player_2.hit_points %>HP
 <a href="/attack">Attack</a>
