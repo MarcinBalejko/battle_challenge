@@ -35,4 +35,5 @@ describe Game do
             expect(game.current_turn).to eq player_2
         end
     end
+    
 end
