@@ -4,12 +4,12 @@ feature 'Attacking' do
             sign_in_and_play
             click_link 'Attack'
         end
-        scenario 'attack Player 2' do
+        scenario 'attack second player' do
             sign_in_and_play
             click_link 'Attack'
             expect(page).to have_content 'Dave attacked Mittens'
         end
-        scenario 'reduce Player 2 HP by 10' do
+        scenario 'reduce second player HP by 10' do
             sign_in_and_play
             click_link 'Attack'
             click_link 'OK' 
