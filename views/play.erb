@@ -7,4 +7,6 @@
 <br>
 <%= @game.player_2.name %>: <%= @game.player_2.hit_points %>HP
 
-<a href="/attack">Attack</a>
+<form action="/attack" method="get">
+    <input type="submit" value="Attack">
+</form>

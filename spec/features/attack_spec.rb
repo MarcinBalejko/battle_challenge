@@ -26,7 +26,6 @@ feature 'Attacking' do
             click_link 'Attack'
             expect(page).to have_content 'Mittens attacked Dave'
         end
-
-
     end
+    
 end
