@@ -41,7 +41,7 @@ class Battle < Sinatra::Base
         redirect('/play')
       end
 
-      get '/game_over' do
+      get '/game-over' do
         @game = $game
         erb :game_over
       end
