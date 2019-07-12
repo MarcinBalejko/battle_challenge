@@ -1,5 +1,5 @@
 feature 'Attacking' do
-    context 'After clicking Attack link' do
+    context 'After clicking Attack button' do
         before do
             sign_in_and_play
             click_button 'Attack'
