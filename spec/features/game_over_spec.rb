@@ -3,9 +3,8 @@ feature 'Game over' do
     before do
       sign_in_and_play
       attack_and_confirm
-      allow(Kernel).to receive(:rand).and_return(60)
+      allow_any_instance_of(Kernel).to receive(:rand).and_return(60)
     end
-
     scenario 'Player 1 loses' do
         click_button 'Attack'
         expect(page).to have_content 'Dave loses!'
