@@ -21,7 +21,6 @@ feature 'Attacking' do
                 sign_in_and_play
                 attack_and_confirm
                 expect(page).not_to have_content 'Mittens: 60HP'
-                #
             end
             
             scenario 'reduce Player 1 HP by 10' do
