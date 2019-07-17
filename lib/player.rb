@@ -6,7 +6,6 @@ class Player
         @name = name
         @hit_points = hit_points
     end
-
     def receive_damage
         @hit_points -= rand(1..10)
     end
